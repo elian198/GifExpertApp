@@ -1,0 +1,33 @@
+body, html{
+  color: white;
+  background-color: #171414;
+  text-align: center;
+
+}
+.App{
+  padding: 1rem;
+  width:  100%;
+  margin-bottom: 2rem;
+  gap: 1;
+}
+.card-grid{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #220A29;
+}
+
+.card{
+  flex-direction: column;
+  text-align: center;
+}
+img{
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem;
+}
